@@ -45,3 +45,18 @@ mwu_kermit
 ```
 
 there was no significant difference in ranks for male and female respondents (W= 155.5, p= 0.4, alpha = 0.05)
+
+
+Is there a siginificant change in Kermit rankings before and after his bren talsk?
+
+```{r}
+
+# null: there is not a significant difference between rankings begfore and after
+wsr_kermit <- wilcox.test(kermit$Score.pre, kermit$Score.post, paired= TRUE)
+
+wsr_kermit
+
+#retain
+```
+
+There is no significant differnece in ranks for pre anmd post talk Kermit scores (statistical results)
