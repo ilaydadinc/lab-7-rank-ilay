@@ -1,0 +1,12 @@
+---
+title: "Lab_7_ilay"
+author: "Ilayda Dinc"
+date: "11/13/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hey!
