@@ -11,3 +11,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hey!,mn,mn
 Hey yourself!n
+
+I am the collaborater
+load tidyverse
+read in kermit
+side histograms scare.pre fort all respondent seperated by gender
+
+```{r}
+library(tidyverse)
+
+kermit <- read_csv("kermit.csv")
+
+kermit_hist <- ggplot(kermit, aes(x = Score.pre)) +
+  geom_histogram(bins = 4) +
+  facet_wrap(~Gender)
+
+kermit_hist
+```
+
