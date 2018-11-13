@@ -44,10 +44,10 @@ mwu_kermit
 #retain null j
 ```
 
-there was no significant difference in ranks for male and female respondents (W= 155.5, p= 0.4, alpha = 0.05)
+There was no significant difference in ranks for male and female respondents (W= 155.5, p= 0.4, alpha = 0.05)
 
 
-Is there a siginificant change in Kermit rankings before and after his bren talsk?
+Is there a siginificant change in Kermit rankings before and after his Bren talks?
 
 ```{r}
 
